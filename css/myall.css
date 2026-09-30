@@ -1,0 +1,84 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap'); Noto+Sans的中文繁體字型 */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Noto+Sans+TC:wght@100..900&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap'); /* google fonts 中文漢字篇 */
+
+:root{
+    --body-bgcolor:#d4e9d4; /* 頁面背景色 */
+    --logo-bgcolor:#00704a; /* Logo區域背景色 */
+    --nav-bgcolor:#00704a; /* 導覽列背景色 */
+    --nav-link-bgcolor:#00704a; /* 導覽連結背景色 */
+    --nav-link-color:#f1f8f5; /* 導覽連結文字色 */
+    --nav-shadow-color:#1e3932; /* 導覽連結陰影色 */
+    --nav-hover-shadow-color:#a5d6b8; /* 導覽連結滑入陰影色 */
+    --content-bgcolor:#1e3932; /* 內容區背景色 */
+    --content-title-color:#f1f8f5; /* 內容標題文字色 */
+    --content-text-color:#d4e9d4; /* 內容段落文字色 */
+    --content-link-bgcolor:#00704a; /* 內容按鈕背景色 */
+    --content-link-color:#ffffff; /* 內容按鈕文字色 */
+    --content-link-shadow-color:#666666; /* 內容按鈕陰影色 */
+    --footer-bgcolor:#1e3932; /* 頁尾背景色 */
+    --footer-color:#f1f8f5; /* 頁尾文字色 */
+}
+body{
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+/* 改content內容粗細 */
+.fw-300{
+    font-weight:300;
+}
+.fw-400{
+    font-weight:400;
+}
+.fw-500{
+    font-weight:500;
+}
+.fw-700{
+    font-weight:700;
+}
+.fw-900{
+    font-weight:900;
+}
+
+/*改標題*/
+.mytitle-01{
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+    color: #32aa82;
+}
+.mytitle-02{
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    color: #aa3294;
+}
+.mytitle-03{
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    color: #aa9a32;
+}
+.mytitle-04{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    color: #aa9a32;
+}
+.mytitle-05{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    color: #aa9a32;
+}
+.mytitle-06{
+    font-size: 32px;
+    font-weight: 250;
+    text-align: center;
+    color: #aa9a32;
+}
+
+/*背景圖*/
+.bg-img{
+    background-position: center center;
+    background-size: cover;
+}
